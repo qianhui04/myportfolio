@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="Zero Hunger UM architecture">
+  <rect width="1200" height="640" fill="#111317"/>
+  <rect x="0" y="0" width="1200" height="640" fill="none" stroke="#2a2e36"/>
+  <text x="48" y="56" fill="#c8f542" font-family="ui-monospace, monospace" font-size="14">ZERO HUNGER UM</text>
+  <text x="48" y="84" fill="#eceef2" font-family="Georgia, serif" font-size="32">Admin platform + analytics</text>
+  <g font-family="ui-monospace, monospace" font-size="13">
+    <rect x="48" y="140" width="250" height="140" fill="#16181d" stroke="#2a2e36"/>
+    <text x="68" y="176" fill="#9aa1ab">CLIENT</text>
+    <text x="68" y="206" fill="#eceef2">React + TypeScript</text>
+    <text x="68" y="228" fill="#9aa1ab">Tailwind · Admin UI</text>
+    <rect x="338" y="140" width="250" height="140" fill="#16181d" stroke="#c8f542"/>
+    <text x="358" y="176" fill="#c8f542">MAP</text>
+    <text x="358" y="206" fill="#eceef2">Leaflet</text>
+    <text x="358" y="228" fill="#9aa1ab">Campus listings</text>
+    <rect x="628" y="140" width="250" height="140" fill="#16181d" stroke="#2a2e36"/>
+    <text x="648" y="176" fill="#9aa1ab">DATA</text>
+    <text x="648" y="206" fill="#eceef2">Supabase</text>
+    <text x="648" y="228" fill="#9aa1ab">Auth + access</text>
+    <rect x="918" y="140" width="234" height="140" fill="#16181d" stroke="#2a2e36"/>
+    <text x="938" y="176" fill="#9aa1ab">STORE</text>
+    <text x="938" y="206" fill="#eceef2">PostgreSQL</text>
+    <text x="938" y="228" fill="#9aa1ab">Listings · claims</text>
+    <rect x="48" y="360" width="1104" height="200" fill="#16181d" stroke="#2a2e36"/>
+    <text x="68" y="400" fill="#c8f542">ANALYTICS LAYER</text>
+    <text x="68" y="436" fill="#eceef2">Operational queries over the same records the admin moderates.</text>
+    <text x="68" y="464" fill="#9aa1ab">No vanity metrics. Volume, status, geographic concentration  when the data supports it.</text>
+  </g>
+</svg>

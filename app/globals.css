@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0c0e;
+  --bg-2: #111317;
+  --surface: #16181d;
+  --line: #2a2e36;
+  --text: #eceef2;
+  --muted: #9aa1ab;
+  --accent: #c8f542;
+  --accent-dim: color-mix(in srgb, var(--accent) 16%, transparent);
+  --blue: #7aa2ff;
+  --danger: #ff6b6b;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+  --color-blue: var(--blue);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--accent);
+  color: #111;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.mono {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}

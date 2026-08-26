@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="VeriAI governance pipeline">
+  <rect width="1200" height="640" fill="#111317"/>
+  <text x="48" y="56" fill="#7aa2ff" font-family="ui-monospace, monospace" font-size="14">VERIAI</text>
+  <text x="48" y="84" fill="#eceef2" font-family="Georgia, serif" font-size="32">Inspect ’ score ’ store</text>
+  <g font-family="ui-monospace, monospace" font-size="13">
+    <rect x="48" y="180" width="240" height="160" fill="#16181d" stroke="#2a2e36"/>
+    <text x="68" y="220" fill="#9aa1ab">PAYLOAD</text>
+    <text x="68" y="252" fill="#eceef2">Untrusted input</text>
+    <text x="68" y="276" fill="#9aa1ab">prompts · logs · docs</text>
+    <rect x="336" y="180" width="240" height="160" fill="#16181d" stroke="#c8f542"/>
+    <text x="356" y="220" fill="#c8f542">DETECT</text>
+    <text x="356" y="252" fill="#eceef2">Sensitive data</text>
+    <text x="356" y="276" fill="#9aa1ab">AI / ML findings</text>
+    <rect x="624" y="180" width="240" height="160" fill="#16181d" stroke="#2a2e36"/>
+    <text x="644" y="220" fill="#9aa1ab">ASSESS</text>
+    <text x="644" y="252" fill="#eceef2">Risk view</text>
+    <text x="644" y="276" fill="#9aa1ab">FastAPI service</text>
+    <rect x="912" y="180" width="240" height="160" fill="#16181d" stroke="#2a2e36"/>
+    <text x="932" y="220" fill="#9aa1ab">RECORD</text>
+    <text x="932" y="252" fill="#eceef2">Supabase</text>
+    <text x="932" y="276" fill="#9aa1ab">audit trail</text>
+    <text x="48" y="420" fill="#9aa1ab">Hackathon prototype  a complete governance loop, not a chatbot skin.</text>
+  </g>
+  <path d="M288 260 H336 M576 260 H624 M864 260 H912" stroke="#c8f542" stroke-width="1.5"/>
+</svg>

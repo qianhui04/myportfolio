@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Gameplay placeholder 1">
+  <rect width="800" height="450" fill="#12180f"/>
+  <circle cx="400" cy="220" r="90" fill="none" stroke="#c8f542" stroke-width="2"/>
+  <text x="40" y="40" fill="#c8f542" font-family="ui-monospace, monospace" font-size="12">SHOT 01</text>
+  <text x="40" y="420" fill="#9aa1ab" font-family="ui-monospace, monospace" font-size="12">Drop a real screenshot at public/games/game-dev/shot-1.png and update content/games.ts</text>
+</svg>
